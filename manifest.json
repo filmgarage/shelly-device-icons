@@ -6,57 +6,386 @@
       "name": "Shelly 1",
       "generation": 1,
       "category": "relay",
-      "image": "devices/gen1/shelly-1.png",
-      "thumbnail": "devices/gen1/thumbs/shelly-1.png"
+      "image": "devices/gen1/shsw-1.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-1.png"
     },
     "SHSW-PM": {
       "name": "Shelly 1PM",
       "generation": 1,
       "category": "relay",
-      "image": "devices/gen1/shelly-1pm.png",
-      "thumbnail": "devices/gen1/thumbs/shelly-1pm.png"
+      "image": "devices/gen1/shsw-pm.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-pm.png"
+    },
+    "SHSW-L": {
+      "name": "Shelly 1L",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shsw-l.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-l.png"
+    },
+    "SHSW-21": {
+      "name": "Shelly 2",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shsw-21.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-21.png"
     },
     "SHSW-25": {
       "name": "Shelly 2.5",
       "generation": 1,
       "category": "relay",
-      "image": "devices/gen1/shelly-25.png",
-      "thumbnail": "devices/gen1/thumbs/shelly-25.png"
+      "image": "devices/gen1/shsw-25.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-25.png"
+    },
+    "SHSW-44": {
+      "name": "Shelly 4Pro",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shsw-44.png",
+      "thumbnail": "devices/gen1/thumbs/shsw-44.png"
+    },
+    "SHPLG-1": {
+      "name": "Shelly Plug",
+      "generation": 1,
+      "category": "plug",
+      "image": "devices/gen1/shplg-1.png",
+      "thumbnail": "devices/gen1/thumbs/shplg-1.png"
     },
     "SHPLG-S": {
       "name": "Shelly Plug S",
       "generation": 1,
       "category": "plug",
-      "image": "devices/gen1/shelly-plug-s.png",
-      "thumbnail": "devices/gen1/thumbs/shelly-plug-s.png"
+      "image": "devices/gen1/shplg-s.png",
+      "thumbnail": "devices/gen1/thumbs/shplg-s.png"
+    },
+    "SHPLG-U1": {
+      "name": "Shelly Plug US",
+      "generation": 1,
+      "category": "plug",
+      "image": "devices/gen1/shplg-u1.png",
+      "thumbnail": "devices/gen1/thumbs/shplg-u1.png"
+    },
+    "SHPLG2-1": {
+      "name": "Shelly Plug 2",
+      "generation": 1,
+      "category": "plug",
+      "image": "devices/gen1/shplg2-1.png",
+      "thumbnail": "devices/gen1/thumbs/shplg2-1.png"
+    },
+    "SHDM-1": {
+      "name": "Shelly Dimmer",
+      "generation": 1,
+      "category": "dimmer",
+      "image": "devices/gen1/shdm-1.png",
+      "thumbnail": "devices/gen1/thumbs/shdm-1.png"
     },
     "SHDM-2": {
       "name": "Shelly Dimmer 2",
       "generation": 1,
       "category": "dimmer",
-      "image": "devices/gen1/shelly-dimmer-2.png",
-      "thumbnail": "devices/gen1/thumbs/shelly-dimmer-2.png"
+      "image": "devices/gen1/shdm-2.png",
+      "thumbnail": "devices/gen1/thumbs/shdm-2.png"
+    },
+    "SHRGBW2": {
+      "name": "Shelly RGBW2",
+      "generation": 1,
+      "category": "rgbw",
+      "image": "devices/gen1/shrgbw2.png",
+      "thumbnail": "devices/gen1/thumbs/shrgbw2.png"
+    },
+    "SHRGBWW-01": {
+      "name": "Shelly Duo",
+      "generation": 1,
+      "category": "bulb",
+      "image": "devices/gen1/shrgbww-01.png",
+      "thumbnail": "devices/gen1/thumbs/shrgbww-01.png"
+    },
+    "SHCB-1": {
+      "name": "Shelly Bulb",
+      "generation": 1,
+      "category": "bulb",
+      "image": "devices/gen1/shcb-1.png",
+      "thumbnail": "devices/gen1/thumbs/shcb-1.png"
+    },
+    "SHVIN-1": {
+      "name": "Shelly Vintage",
+      "generation": 1,
+      "category": "bulb",
+      "image": "devices/gen1/shvin-1.png",
+      "thumbnail": "devices/gen1/thumbs/shvin-1.png"
+    },
+    "SHEM": {
+      "name": "Shelly EM",
+      "generation": 1,
+      "category": "meter",
+      "image": "devices/gen1/shem.png",
+      "thumbnail": "devices/gen1/thumbs/shem.png"
+    },
+    "SHEM-3": {
+      "name": "Shelly 3EM",
+      "generation": 1,
+      "category": "meter",
+      "image": "devices/gen1/shem-3.png",
+      "thumbnail": "devices/gen1/thumbs/shem-3.png"
+    },
+    "SHHT-1": {
+      "name": "Shelly H&T",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shht-1.png",
+      "thumbnail": "devices/gen1/thumbs/shht-1.png"
+    },
+    "SHGS-1": {
+      "name": "Shelly Gas",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shgs-1.png",
+      "thumbnail": "devices/gen1/thumbs/shgs-1.png"
+    },
+    "SHWT-1": {
+      "name": "Shelly Flood",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shwt-1.png",
+      "thumbnail": "devices/gen1/thumbs/shwt-1.png"
+    },
+    "SHDW-1": {
+      "name": "Shelly Door/Window",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shdw-1.png",
+      "thumbnail": "devices/gen1/thumbs/shdw-1.png"
+    },
+    "SHDW-2": {
+      "name": "Shelly Door/Window 2",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shdw-2.png",
+      "thumbnail": "devices/gen1/thumbs/shdw-2.png"
+    },
+    "SHMOS-01": {
+      "name": "Shelly Motion",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shmos-01.png",
+      "thumbnail": "devices/gen1/thumbs/shmos-01.png"
+    },
+    "SHBTN-1": {
+      "name": "Shelly Button 1",
+      "generation": 1,
+      "category": "button",
+      "image": "devices/gen1/shbtn-1.png",
+      "thumbnail": "devices/gen1/thumbs/shbtn-1.png"
+    },
+    "SHBTN-2": {
+      "name": "Shelly Button 2",
+      "generation": 1,
+      "category": "button",
+      "image": "devices/gen1/shbtn-2.png",
+      "thumbnail": "devices/gen1/thumbs/shbtn-2.png"
+    },
+    "SHIX3-1": {
+      "name": "Shelly i3",
+      "generation": 1,
+      "category": "sensor",
+      "image": "devices/gen1/shix3-1.png",
+      "thumbnail": "devices/gen1/thumbs/shix3-1.png"
+    },
+    "SHUNI-1": {
+      "name": "Shelly UNI",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shuni-1.png",
+      "thumbnail": "devices/gen1/thumbs/shuni-1.png"
     },
     "ShellyPlus1": {
       "name": "Shelly Plus 1",
       "generation": 2,
       "category": "relay",
-      "image": "devices/gen2/shelly-plus-1.png",
-      "thumbnail": "devices/gen2/thumbs/shelly-plus-1.png"
+      "image": "devices/gen2/shellyplus1.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplus1.png"
     },
     "ShellyPlus1PM": {
       "name": "Shelly Plus 1PM",
       "generation": 2,
       "category": "relay",
-      "image": "devices/gen2/shelly-plus-1pm.png",
-      "thumbnail": "devices/gen2/thumbs/shelly-plus-1pm.png"
+      "image": "devices/gen2/shellyplus1pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplus1pm.png"
+    },
+    "ShellyPlus1UL": {
+      "name": "Shelly Plus 1 UL",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellyplus1ul.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplus1ul.png"
+    },
+    "ShellyPlus1PMUL": {
+      "name": "Shelly Plus 1PM UL",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellyplus1pmul.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplus1pmul.png"
+    },
+    "ShellyPlus2PM": {
+      "name": "Shelly Plus 2PM",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellyplus2pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplus2pm.png"
+    },
+    "ShellyPlusI4": {
+      "name": "Shelly Plus i4",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyplusi4.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplusi4.png"
+    },
+    "ShellyPlusI4DC": {
+      "name": "Shelly Plus i4 DC",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyplusi4dc.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplusi4dc.png"
+    },
+    "ShellyPlusHT": {
+      "name": "Shelly Plus H&T",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyplusht.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplusht.png"
+    },
+    "ShellyPlusSmoke": {
+      "name": "Shelly Plus Smoke",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyplussmoke.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplussmoke.png"
+    },
+    "ShellyPlusPlugS": {
+      "name": "Shelly Plus Plug S",
+      "generation": 2,
+      "category": "plug",
+      "image": "devices/gen2/shellyplussplugs.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplussplugs.png"
+    },
+    "ShellyPlusPlugUS": {
+      "name": "Shelly Plus Plug US",
+      "generation": 2,
+      "category": "plug",
+      "image": "devices/gen2/shellyplusplugsus.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplusplugsus.png"
+    },
+    "ShellyPlusPlugUK": {
+      "name": "Shelly Plus Plug UK",
+      "generation": 2,
+      "category": "plug",
+      "image": "devices/gen2/shellyplusplugsuk.png",
+      "thumbnail": "devices/gen2/thumbs/shellyplusplugsuk.png"
+    },
+    "ShellyPlusWallDimmer": {
+      "name": "Shelly Plus Wall Dimmer",
+      "generation": 2,
+      "category": "dimmer",
+      "image": "devices/gen2/shellypluswalldimmer.png",
+      "thumbnail": "devices/gen2/thumbs/shellypluswalldimmer.png"
     },
     "ShellyPro1": {
       "name": "Shelly Pro 1",
       "generation": 2,
       "category": "relay",
-      "image": "devices/gen2/shelly-pro-1.png",
-      "thumbnail": "devices/gen2/thumbs/shelly-pro-1.png"
+      "image": "devices/gen2/shellypro1.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro1.png"
+    },
+    "ShellyPro1PM": {
+      "name": "Shelly Pro 1PM",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellypro1pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro1pm.png"
+    },
+    "ShellyPro2": {
+      "name": "Shelly Pro 2",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellypro2.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro2.png"
+    },
+    "ShellyPro2PM": {
+      "name": "Shelly Pro 2PM",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellypro2pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro2pm.png"
+    },
+    "ShellyPro3": {
+      "name": "Shelly Pro 3",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellypro3.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro3.png"
+    },
+    "ShellyPro4PM": {
+      "name": "Shelly Pro 4PM",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shellypro4pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro4pm.png"
+    },
+    "ShellyPro3EM": {
+      "name": "Shelly Pro 3EM",
+      "generation": 2,
+      "category": "meter",
+      "image": "devices/gen2/shellypro3em.png",
+      "thumbnail": "devices/gen2/thumbs/shellypro3em.png"
+    },
+    "ShellyProEM50": {
+      "name": "Shelly Pro EM-50",
+      "generation": 2,
+      "category": "meter",
+      "image": "devices/gen2/shellyproem50.png",
+      "thumbnail": "devices/gen2/thumbs/shellyproem50.png"
+    },
+    "ShellyProDimmer1PM": {
+      "name": "Shelly Pro Dimmer 1PM",
+      "generation": 2,
+      "category": "dimmer",
+      "image": "devices/gen2/shellyprodimmer1pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellyprodimmer1pm.png"
+    },
+    "ShellyProDimmer2PM": {
+      "name": "Shelly Pro Dimmer 2PM",
+      "generation": 2,
+      "category": "dimmer",
+      "image": "devices/gen2/shellyprodimmer2pm.png",
+      "thumbnail": "devices/gen2/thumbs/shellyprodimmer2pm.png"
+    },
+    "ShellyBLUButtonTough": {
+      "name": "Shelly BLU Button Tough",
+      "generation": 2,
+      "category": "button",
+      "image": "devices/gen2/shellyblubutton.png",
+      "thumbnail": "devices/gen2/thumbs/shellyblubutton.png"
+    },
+    "ShellyBLUDoorWindow": {
+      "name": "Shelly BLU Door/Window",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyblud oorwindow.png",
+      "thumbnail": "devices/gen2/thumbs/shellybludoorwindow.png"
+    },
+    "ShellyBLUMotion": {
+      "name": "Shelly BLU Motion",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellyblumotion.png",
+      "thumbnail": "devices/gen2/thumbs/shellyblumotion.png"
+    },
+    "ShellyBLUHT": {
+      "name": "Shelly BLU H&T",
+      "generation": 2,
+      "category": "sensor",
+      "image": "devices/gen2/shellybluht.png",
+      "thumbnail": "devices/gen2/thumbs/shellybluht.png"
     }
   },
   "categories": {
@@ -76,9 +405,21 @@
       "name": "Sensor",
       "icon": "categories/sensor.png"
     },
+    "meter": {
+      "name": "Energy Meter",
+      "icon": "categories/meter.png"
+    },
     "rgbw": {
-      "name": "RGB/RGBW",
+      "name": "RGB/RGBW Controller",
       "icon": "categories/rgbw.png"
+    },
+    "bulb": {
+      "name": "Smart Bulb",
+      "icon": "categories/bulb.png"
+    },
+    "button": {
+      "name": "Button/Remote",
+      "icon": "categories/button.png"
     }
   }
 }

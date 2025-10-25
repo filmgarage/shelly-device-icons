@@ -1,0 +1,84 @@
+{
+  "version": "0.1.0",
+  "base_url": "https://raw.githubusercontent.com/[jouw-username]/shelly-device-icons/main",
+  "devices": {
+    "SHSW-1": {
+      "name": "Shelly 1",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shelly-1.png",
+      "thumbnail": "devices/gen1/thumbs/shelly-1.png"
+    },
+    "SHSW-PM": {
+      "name": "Shelly 1PM",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shelly-1pm.png",
+      "thumbnail": "devices/gen1/thumbs/shelly-1pm.png"
+    },
+    "SHSW-25": {
+      "name": "Shelly 2.5",
+      "generation": 1,
+      "category": "relay",
+      "image": "devices/gen1/shelly-25.png",
+      "thumbnail": "devices/gen1/thumbs/shelly-25.png"
+    },
+    "SHPLG-S": {
+      "name": "Shelly Plug S",
+      "generation": 1,
+      "category": "plug",
+      "image": "devices/gen1/shelly-plug-s.png",
+      "thumbnail": "devices/gen1/thumbs/shelly-plug-s.png"
+    },
+    "SHDM-2": {
+      "name": "Shelly Dimmer 2",
+      "generation": 1,
+      "category": "dimmer",
+      "image": "devices/gen1/shelly-dimmer-2.png",
+      "thumbnail": "devices/gen1/thumbs/shelly-dimmer-2.png"
+    },
+    "ShellyPlus1": {
+      "name": "Shelly Plus 1",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shelly-plus-1.png",
+      "thumbnail": "devices/gen2/thumbs/shelly-plus-1.png"
+    },
+    "ShellyPlus1PM": {
+      "name": "Shelly Plus 1PM",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shelly-plus-1pm.png",
+      "thumbnail": "devices/gen2/thumbs/shelly-plus-1pm.png"
+    },
+    "ShellyPro1": {
+      "name": "Shelly Pro 1",
+      "generation": 2,
+      "category": "relay",
+      "image": "devices/gen2/shelly-pro-1.png",
+      "thumbnail": "devices/gen2/thumbs/shelly-pro-1.png"
+    }
+  },
+  "categories": {
+    "relay": {
+      "name": "Relay/Switch",
+      "icon": "categories/relay.png"
+    },
+    "dimmer": {
+      "name": "Dimmer",
+      "icon": "categories/dimmer.png"
+    },
+    "plug": {
+      "name": "Smart Plug",
+      "icon": "categories/plug.png"
+    },
+    "sensor": {
+      "name": "Sensor",
+      "icon": "categories/sensor.png"
+    },
+    "rgbw": {
+      "name": "RGB/RGBW",
+      "icon": "categories/rgbw.png"
+    }
+  }
+}
